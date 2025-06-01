@@ -2,6 +2,7 @@ let timeLeft = 46;
 const timerElement = document.getElementById("timer");
 
 // Preguntas para cada módulo (5 preguntas por módulo)
+//5 preguntas para el mmodulo de juegos tradicionales
 const questionsModule1 = [
   {
     question: "¿Cuál de estos juegos tradicionales se juega con una cuerda?",
@@ -36,7 +37,7 @@ const questionsModule1 = [
 ];
 
 const questionsModule2 = [
-  // Añade 5 preguntas para el módulo 2
+  // 5 preguntas para el módulo 2 - Deportes
   {
     question: "¿Qué deporte se juega con los pies y un balón?",
     options: ["Baloncesto", "Fútbol", "Tenis", "Natación"],
@@ -70,7 +71,7 @@ const questionsModule2 = [
 ];
 
 const questionsModule3 = [
-  // Añade 5 preguntas para el módulo 3
+  // 5 preguntas para el módulo 3 - Gimnasia
   {
     question: "¿Qué parte del cuerpo es muy importante para hacer gimnasia?",
     options: ["Los ojos", "Los brazos y piernas", "Las orejas", "Los dedos"],
@@ -326,8 +327,7 @@ function handleCloseKeyPress(event) {
 function handleModuleKeyPress(event, moduleNumber) {
   if (event.key === "Enter") {
     startModule(moduleNumber);
-<<<<<<< HEAD
   }
-=======
-  }
->>>>>>> 73867516d8e4038e671d3dfc01623cd0da84607c
+
+}
+
